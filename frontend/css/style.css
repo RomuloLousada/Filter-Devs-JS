@@ -1,0 +1,19 @@
+.customCheckbox span, 
+.customRadio span {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.devBlock {
+    border: 1px solid;
+    height: 30px;
+}
+
+.resizeImg {
+    width: 25px
+}
+
+.resizeFont {
+    font-size: 12px;
+    padding: 24px 8px !important;
+}

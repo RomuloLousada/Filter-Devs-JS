@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Desafio - Módulo 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <!-- Input -->
+            <input class="col s12" type="text" id="nameSearch" placeholder="Pesquisa por nome" />
+
+            <div class="row">
+                <div class="col s10">
+                    <!-- Checkboxes -->
+                    <label class="customCheckbox" for="Java">
+                        <input type="checkbox" id="Java" name="languageSearch" class="languageCheckbox" checked />
+                        <span>Java</span>
+                    </label>
+                    <label class="customCheckbox" for="JavaScript">
+                        <input type="checkbox" id="JavaScript" name="languageSearch" class="languageCheckbox" checked />
+                        <span>Javascript</span>
+                    </label>
+                    <label class="customCheckbox" for="Python">
+                        <input type="checkbox" id="Python" name="languageSearch" class="languageCheckbox" checked />
+                        <span>Python</span>
+                    </label>
+                </div>
+    
+                <div class="col s2">
+                    <!-- Radio -->
+                    <label class="customRadio" for="and">
+                        <input type="radio" id="and" name="languageSearch" class="languageRadio" />
+                        <span>E</span>
+                    </label>
+                    <label class="customRadio" for="orSearch">
+                        <input type="radio" id="orSearch" name="languageSearch" class="languageRadio" checked />
+                        <span>OU</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3 id="devsFound"></h3>
+        </div>
+
+        <div class="divider"></div>
+        
+        <div class="section">
+            <div class="row" id="devsGrid">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script defer src="./js/script.js"></script>
+</body>
+</html>
